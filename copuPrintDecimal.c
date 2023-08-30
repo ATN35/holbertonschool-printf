@@ -10,7 +10,7 @@ int print_decimal(int nombre)
 	if (nombre == 0)
 	{
 		_putchar('0');
-		return;
+		return (0);
 	}
 	if (nombre < 0)
 	{
@@ -35,4 +35,5 @@ int print_decimal(int nombre)
 			i++;
 		}
 	}
+	return (0);
 }
