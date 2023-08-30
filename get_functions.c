@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * get_function - Print all types
  * @format: first parameter
@@ -7,7 +6,6 @@
  * @array: struct
  * Return: Print all types
  */
-
 int get_function(const char *format, va_list list, elem_t *array)
 {
 	int i = 0, j, length = 0, prevLength;
