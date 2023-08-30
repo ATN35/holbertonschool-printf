@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 
-void print_decimal(int nombre)
+int print_decimal(int nombre)
 {
 	double nbr_fract;
 	int nbr_entier;
